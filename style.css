@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#messages {
+  flex: 1; /* takes up all remaining space */
+  overflow-y: auto; /* scroll if too many messages */
+  padding: 1rem;
+  background: #f4f4f4;
+}
+
+#messages_input {
+  padding: 0.5rem;
+  background: #ddd;
+}
+
+#messages_input form {
+  display: flex;
+}
+
+#text_input {
+  flex: 1; /* textarea expands */
+  resize: none;
+}
+
+button {
+  margin-left: 0.5rem;
+}
